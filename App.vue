@@ -69,14 +69,28 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 200px;
+  position:relative;
 }
 
 .finish{
   text-decoration: line-through;
   color: #222;
+/*  display:none;*/
 }
 
 .list{
   list-style: none;
+  position:absolute;
+  left:50%;
+  margin-left:-140px;
+}
+.list li{
+  width:200px;
+  height:40px;
+  background-color:#278392;
+  margin-top:10px;
+  font-size:20px;
+  line-height:40px;
+  color:#fff;
 }
 </style>
